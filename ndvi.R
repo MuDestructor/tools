@@ -20,12 +20,7 @@ library(raster)
 library(ncdf4)
 library(rworldmap)
 library(chron)
-
-source("functions.R")
-source("csv.R")
-source("csv-layer.R")
-source("data-layer.R")
-source("config-web.R")
+library(ncwebmapper)
 
 nc_route <- "../viewer/nc"
 out_route <- "../viewer/maps"
